@@ -1,6 +1,6 @@
 const maxLength = 3;
 const images = Array.from({ length: maxLength }).map((_, i) => {
-    return `../img/${i.toString()}.jpg`;
+    return `img/${i.toString()}.jpg`;
 });
 
 //랜덤 배경화면
