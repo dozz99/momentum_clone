@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" ;>
+</head>
+
+<body>
+    <title>Momentum Clone</title>
+    <div class="background">
+        <img src="../img/1.jpg" alt="Image"></img>
+        <div class="overlay">
+            <h1 id="clock"></h1>
+            <h2 id="greeting"></h2>
+            <div style="padding-top: 50px;"></div>
+            <div class="custom-input">
+                <h1 class="sizable-big"></h1>
+                <form>
+                    <input required maxlength="15" type="text" id="main-input">
+                </form>
+            </div>
+            <div class="focus-todo hidden">
+                <h1>Today</h1>
+                <ul></ul>
+            </div>
+        </div>
+        <footer>
+            <h1 class="author hidden"></h1>
+            <h2 class="qutoe">"모든 것은 하나다."</h1>
+        </footer>
+        <div class="sub-todo">
+            <h1>Today</h1>
+            <ul>
+            </ul>
+            <form class="sub-form">
+                <input required maxlength="20" type="text" id="sub-input" placeholder="할일 적기">
+            </form>
+        </div>
+        <button class="rb-btn">
+            Todo
+        </button>
+
+        <div id='weather' class="rt-weather">
+            <div>
+                <img></img>
+                <span id='city'></span>
+            </div>
+            <span id="temp"></span>
+
+        </div>
+
+    </div>
+
+
+    <script src="../code/clock.js"></script>
+    <script src="../code/rnd_contents.js"></script>
+    <script src="../code/todo_list.js"></script>
+    <script src="../code/custom_input.js"></script>
+    <script src="../code/weather.js"></script>
+
+</body>
+
+</html>
